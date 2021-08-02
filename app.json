@@ -1,0 +1,22 @@
+{
+  "name": "INNEXIA",
+  "description": "Open-Source bot for Aichat bot",
+  "logo": "https://telegra.ph/file/8a3fa88eef5dfd2d0e411.png",
+  "keywords": ["aichatbot", "chatbot", "telegram"],
+  "repository": "https://github.com/TEAM-PATRICIA/innexiaChatbot",
+  "buildpacks": [{
+  "url": "heroku/python"
+  }],
+  "formation": {
+  "worker": {
+  "quantity": 1,
+  "size": "free"
+        }
+    },
+  "env": {
+    "BOT_TOKEN": {
+      "description": "A Bot Token from @BotFather",
+      "required": true
+    }
+  }
+}
