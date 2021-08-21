@@ -86,7 +86,7 @@ async def chat(_, message):
 )
 async def chatpm(_, message):
     if not message.text:
-        await message.reply_text("Ufff... Ignoring .... ¯\_(ツ)_/¯")
+        await message.reply_text("Uff... Ignoring .... ¯\_(ツ)_/¯")
         return
     await type_and_send(message)
 
